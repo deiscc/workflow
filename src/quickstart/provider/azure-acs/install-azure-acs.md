@@ -24,7 +24,7 @@ The Deis Chart Repository contains everything needed to install Deis Workflow on
 Add this repository to Helm:
 
 ```
-$ helm repo add deis https://charts.deis.com/workflow
+$ helm repo add deis https://charts.deis.cc/workflow
 ```
 
 ## Create New Azure Storage Account

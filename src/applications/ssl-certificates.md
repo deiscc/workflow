@@ -104,8 +104,8 @@ or by looking at at each certificates detailed information
     Starts At:          2016-01-15 23:57:57 +0000 UTC
     Fingerprint:        7A:CA:B8:50:FF:8D:EB:03:3D:AC:AD:13:4F:EE:03:D5:5D:EB:5E:37:51:8C:E0:98:F8:1B:36:2B:20:83:0D:C0
     Subject Alt Name:   blog.example.com
-    Issuer:             /C=US/ST=CA/L=San Francisco/O=Deis/OU=Engineering/CN=example.com/emailAddress=engineering@deis.com
-    Subject:            /C=US/ST=CA/L=San Francisco/O=Deis/OU=Engineering/CN=example.com/emailAddress=engineering@deis.com
+    Issuer:             /C=US/ST=CA/L=San Francisco/O=Deis/OU=Engineering/CN=example.com/emailAddress=engineering@deis.cc
+    Subject:            /C=US/ST=CA/L=San Francisco/O=Deis/OU=Engineering/CN=example.com/emailAddress=engineering@deis.cc
 
     Connected Domains:  example.com
     Owner:              admin-user

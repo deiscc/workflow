@@ -5,10 +5,10 @@
 Now that Helm is installed and the repository has been added, install Workflow with a native ingress by running:
 
 ```
-$ helm install deis/workflow --namespace deis --set global.experimental_native_ingress=true,controller.platform_domain=deis.com
+$ helm install deis/workflow --namespace deis --set global.experimental_native_ingress=true,controller.platform_domain=deis.cc
 ```
 
-Where `controller.platform_domain` is a **required** parameter that is traditionally not required for Workflow that is explained in the next section. In this example we are using `deis.com` for `$hostname`.
+Where `controller.platform_domain` is a **required** parameter that is traditionally not required for Workflow that is explained in the next section. In this example we are using `deis.cc` for `$hostname`.
  
 Helm will install a variety of Kubernetes resources in the `deis` namespace.
 Wait for the pods that Helm launched to be ready. Monitor their status by running:
@@ -73,12 +73,12 @@ NAME           CLUSTER-IP     EXTERNAL-IP     PORT(S)          AGE
 deis-builder   10.0.165.140   40.86.182.187   2222:32488/TCP   33m
 ```
 
-If we were using `deis.com` as a hostname, we would need to create the following A DNS records.
+If we were using `deis.cc` as a hostname, we would need to create the following A DNS records.
 
 | Name                         | Type          | Value          |
 | ---------------------------- |:-------------:| --------------:|
-| *.deis.com                   | A             | 138.91.243.152 |
-| deis-builder.deis.com        | A             | 40.86.182.187  |
+| *.deis.cc                   | A             | 138.91.243.152 |
+| deis-builder.deis.cc        | A             | 40.86.182.187  |
 
 Once all of the pods are in the `READY` state, and `deis.$host` resolves to the external IP found above, Workflow is up and running!
 
@@ -86,7 +86,7 @@ After installing Workflow, [register a user and deploy an application](../quicks
 
 ##### Feedback
 
-While this feature is experimental we welcome feedback on the issue. We would like to learn more about use cases, and user experience. Please [open a new issue](https://github.com/teamhephy/workflow/issues/new) for feedback.
+While this feature is experimental we welcome feedback on the issue. We would like to learn more about use cases, and user experience. Please [open a new issue](https://github.com/deiscc/workflow/issues/new) for feedback.
 
 
 [builder]: ../understanding-workflow/components.md#builder

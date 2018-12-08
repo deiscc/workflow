@@ -32,7 +32,7 @@ $ deis register http://$hostname
 username: admin
 password:
 password (confirm):
-email: jhansen@deis.com
+email: jhansen@deis.cc
 Registered admin
 Logged in as admin
 $ deis whoami
@@ -129,8 +129,8 @@ There is a lot more you can do with Deis Workflow, play around with the CLI:
 * Roll back to a previous release with `deis rollback -a proper-barbecue`
 * See application logs with `deis logs -a proper-barbecue`
 * Try one of our other example applications like:
-    * [deis/example-ruby-sinatra](https://github.com/teamhephy/example-ruby-sinatra)
-    * [deis/example-nodejs-express](https://github.com/teamhephy/example-nodejs-express)
-    * [deis/example-java-jetty](https://github.com/teamhephy/example-java-jetty)
+    * [deis/example-ruby-sinatra](https://github.com/deiscc/example-ruby-sinatra)
+    * [deis/example-nodejs-express](https://github.com/deiscc/example-nodejs-express)
+    * [deis/example-java-jetty](https://github.com/deiscc/example-java-jetty)
 * Read about using application [Buildpacks](../applications/using-buildpacks) or [Dockerfiles](../applications/using-dockerfiles.md)
-* Join our [#community slack channel](https://slack.deis.io) and meet the team!
+* Join our [#community slack channel](https://slack.deis.cc) and meet the team!

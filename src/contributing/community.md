@@ -14,6 +14,6 @@ Deis projects are bounty-friendly.  We believe open source bounty sites can be c
 
 
 [github]: https://github.com/deis
-[ey]: https://deis.com/community
+[ey]: https://deis.cc/community
 [bdfl]: http://en.wikipedia.org/wiki/Benevolent_Dictator_for_Life
 [gabriel]: https://github.com/gabrtv

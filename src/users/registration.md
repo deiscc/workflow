@@ -56,7 +56,7 @@ becomes the first "admin" user. Others will now receive an error when trying to 
 logged in, an admin user can register new users:
 
 ```shell
-$ deis register --login=false --username=newuser --password=changeme123 --email=newuser@deis.io
+$ deis register --login=false --username=newuser --password=changeme123 --email=newuser@deis.cc
 ```
 
 ## Controlling Registration Modes

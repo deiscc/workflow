@@ -21,7 +21,7 @@ Read more about adding/removing SSH Keys [here](../users/ssh-keys.md#adding-and-
 
 If you do not have an existing application, you can clone an example application that demonstrates the Heroku Buildpack workflow.
 
-    $ git clone https://github.com/teamhephy/example-go.git
+    $ git clone https://github.com/deiscc/example-go.git
     $ cd example-go
 
 
@@ -59,9 +59,9 @@ Use `git push deis master` to deploy your application.
 
     Use 'deis open' to view this application in your browser
 
-    To learn more, use 'deis help' or visit http://deis.io
+    To learn more, use 'deis help' or visit http://deis.cc
 
-    To ssh://git@deis.staging-2.deis.com:2222/skiing-keypunch.git
+    To ssh://git@deis.staging-2.deis.cc:2222/skiing-keypunch.git
      * [new branch]      master -> master
 
     $ curl -s http://skiing-keypunch.example.com

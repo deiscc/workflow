@@ -23,7 +23,7 @@ Read more about adding/removing SSH Keys [here](../users/ssh-keys.md#adding-and-
 
 If you do not have an existing application, you can clone an example application that demonstrates the Dockerfile workflow.
 
-    $ git clone https://github.com/teamhephy/helloworld.git
+    $ git clone https://github.com/deiscc/helloworld.git
     $ cd helloworld
 
 
@@ -79,12 +79,12 @@ Use `git push deis master` to deploy your application.
     Step 5 : ENV PATH /usr/local/go/bin:/go/bin:$PATH
      ---> Using cache
      ---> 2ba6f6c9f108
-    Step 6 : ADD . /go/src/github.com/deis/helloworld
+    Step 6 : ADD . /go/src/github.com/deiscc/helloworld
      ---> 94ab7f4b977b
     Removing intermediate container 171b7d9fdb34
-    Step 7 : RUN cd /go/src/github.com/deis/helloworld && go install -v .
+    Step 7 : RUN cd /go/src/github.com/deiscc/helloworld && go install -v .
      ---> Running in 0c8fbb2d2812
-    github.com/deis/helloworld
+    github.com/deiscc/helloworld
      ---> 13b5af931393
     Removing intermediate container 0c8fbb2d2812
     Step 8 : ENV PORT 80
@@ -107,14 +107,14 @@ Use `git push deis master` to deploy your application.
     -----> folksy-offshoot deployed to Deis
            http://folksy-offshoot.local3.deisapp.com
 
-           To learn more, use `deis help` or visit http://deis.io
+           To learn more, use `deis help` or visit http://deis.cc
 
     To ssh://git@local3.deisapp.com:2222/folksy-offshoot.git
      * [new branch]      master -> master
 
     $ curl -s http://folksy-offshoot.local3.deisapp.com
     Welcome to Deis!
-    See the documentation at http://docs.deis.io/ for more information.
+    See the documentation at http://docs.deis.cc/ for more information.
 
 Because a Dockerfile application is detected, the `cmd` process type is automatically scaled to 1 on first deploy.
 

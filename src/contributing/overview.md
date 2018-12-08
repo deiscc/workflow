@@ -16,7 +16,7 @@ Before opening a new issue, it's helpful to search and see if anyone else has al
 
 ## Write Documentation
 
-We are always looking to improve and expand our documentation. Most docs reside in the [teamhephy/workflow][workflow] repository. Simply fork the project, update docs and send us a pull request.
+We are always looking to improve and expand our documentation. Most docs reside in the [deiscc/workflow][workflow] repository. Simply fork the project, update docs and send us a pull request.
 
 ## Contribute Code
 
@@ -32,14 +32,14 @@ If you don't have time to code, consider helping with triage. The community will
 
 ## Share your Experience
 
-Interact with the community on our user mailing list or live in our [Deis #community Slack channel](https://slack.deis.io), where you can chat with other Deis Workflow users any time of day.
+Interact with the community on our user mailing list or live in our [Deis #community Slack channel](https://slack.deis.cc), where you can chat with other Deis Workflow users any time of day.
 
-[workflow]: https://github.com/teamhephy/workflow
+[workflow]: https://github.com/deiscc/workflow
 [dd]: design-documents.md
 [dev-environment]: development-environment.md
 [easy fix]: https://github.com/pulls?utf8=%E2%9C%93&q=user%3Adeis+label%3A%22easy+fix%22+is%3Aopen
-[dco]: https://github.com/teamhephy/workflow/blob/master/DCO
+[dco]: https://github.com/deiscc/workflow/blob/master/DCO
 [help wanted]: https://github.com/pulls?utf8=%E2%9C%93&q=user%3Adeis+label%3A%22help+wanted%22+is%3Aopen
 [troubleshooting]: ../troubleshooting/index.md
 [issues]: https://github.com/pulls?utf8=%E2%9C%93&q=user%3Adeis+user%3Ahelm
-[slack]: https://slack.deis.io
+[slack]: https://slack.deis.cc

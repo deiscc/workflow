@@ -129,7 +129,7 @@ output.disable_deis | false | Disable the Deis output plugin
 boot.install_build_tools | false | Install the build tools package. This is useful when using custom plugins
 daemon_environment | | Takes key-value pairs and turns them into environment variables.
 
-For more information about the various environment variables that can be set please see the [README](https://github.com/teamhephy/fluentd/blob/master/README.md)
+For more information about the various environment variables that can be set please see the [README](https://github.com/deiscc/fluentd/blob/master/README.md)
 
 ## Customizing the Logger
 
@@ -151,24 +151,24 @@ user   | "admin" | The first user created in the database (this user has admin p
 password | "admin" | Password for the first user.
 allow_sign_up | "true" | Allows users to sign up for an account.
 
-For a list of other options you can set by using environment variables please see the [configuration file](https://github.com/teamhephy/monitor/blob/master/grafana/rootfs/usr/share/grafana/grafana.ini.tpl) in Github.
+For a list of other options you can set by using environment variables please see the [configuration file](https://github.com/deiscc/monitor/blob/master/grafana/rootfs/usr/share/grafana/grafana.ini.tpl) in Github.
 
 ### [Telegraf](https://docs.influxdata.com/telegraf)
-For a list of configuration values that can be set by using environment variables please see the following [configuration file](https://github.com/teamhephy/monitor/blob/master/telegraf/rootfs/config.toml.tpl).
+For a list of configuration values that can be set by using environment variables please see the following [configuration file](https://github.com/deiscc/monitor/blob/master/telegraf/rootfs/config.toml.tpl).
 
 ### [InfluxDB](https://docs.influxdata.com/influxdb)
-You can find a list of values that can be set using environment variables [here](https://github.com/teamhephy/monitor/blob/master/influxdb/rootfs/home/influxdb/config.toml.tpl).
+You can find a list of values that can be set using environment variables [here](https://github.com/deiscc/monitor/blob/master/influxdb/rootfs/home/influxdb/config.toml.tpl).
 
 ## Customizing the Registry
 
 The [Registry][] component can be tuned by following the
-[teamhephy/distribution config doc](https://github.com/deis/distribution/blob/master/docs/configuration.md).
+[deiscc/distribution config doc](https://github.com/deiscc/distribution/blob/master/docs/configuration.md).
 
 ## Customizing the Router
 
 The majority of router settings are tunable through annotations, which allows the router to be
 re-configured with zero downtime post-installation. You can find the list of annotations to tune
-[here](https://github.com/teamhephy/router#annotations).
+[here](https://github.com/deiscc/router#annotations).
 
 The following environment variables are tunable for the [Router][] component:
 
@@ -182,10 +182,10 @@ The following environment variables are tunable for [Workflow Manager][]:
 
 Setting                            | Description
 ---------------------------------- | ---------------------------------
-CHECK_VERSIONS    | Enables the external version check at <https://versions.teamhephy.info/> (default: "true")
+CHECK_VERSIONS    | Enables the external version check at <https://versions.deiscc.info/> (default: "true")
 POLL_INTERVAL_SEC | The interval when Workflow Manager performs a version check, in seconds (default: 43200, or 12 hours)
-VERSIONS_API_URL  | The versions API URL (default: "<https://versions-staging.teamhephy.info>")
-DOCTOR_API_URL    | The doctor API URL (default: "<https://doctor-staging.teamhephy.info>")
+VERSIONS_API_URL  | The versions API URL (default: "<https://versions-staging.deiscc.info>")
+DOCTOR_API_URL    | The doctor API URL (default: "<https://doctor-staging.deiscc.info>")
 API_VERSION       | The version number Workflow Manager sends to the versions API (default: "v2")
 
 [Deploying Apps]: ../applications/deploying-apps.md

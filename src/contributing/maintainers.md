@@ -44,12 +44,12 @@ The duties of a core maintainer include:
 * Classify and respond to GitHub issues and review pull requests
 * Help to shape the Deis roadmap and lead efforts to accomplish roadmap milestones
 * Participate actively in feature development and bug fixing
-* Answer questions and help users in the [Deis #community Slack channel](https://slack.deis.io)
+* Answer questions and help users in the [Deis #community Slack channel](https://slack.deis.cc)
 
 The current list of core maintainers can be seen [here](https://github.com/orgs/deis/teams/core-maintainers).
 
 No pull requests can be merged until at least one core maintainer signs off with an
-[LGTM](http://docs.deis.io/en/latest/contributing/standards/#merge-approval). The other LGTM can
+[LGTM](http://docs.deis.cc/en/latest/contributing/standards/#merge-approval). The other LGTM can
 come from either a core maintainer or contributing maintainer.
 
 ## Contributing maintainers
@@ -78,7 +78,7 @@ Generally, potential contributing maintainers are selected by the Deis core main
 part on the following criteria:
 
 * Sustained contributions to the project over a period of time (usually months)
-* A willingness to help Deis users on GitHub and in the [Deis #community Slack channel](https://slack.deis.io)
+* A willingness to help Deis users on GitHub and in the [Deis #community Slack channel](https://slack.deis.cc)
 * A friendly attitude :)
 
 The Deis core maintainers must unanimously agree before inviting a community member to join as a

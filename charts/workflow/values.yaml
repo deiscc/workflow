@@ -81,16 +81,16 @@ s3:
   accesskey: ""
   # Your AWS secret key. Leave it empty if you want to use IAM credentials.
   secretkey: ""
-  # Any S3 region
-  region: "us-west-1"
+  # Overrides the default hostname to connect to an S3-compatible service.
+  endpoint: ""
   # Your buckets.
   registry_bucket: "your-registry-bucket-name"
   database_bucket: "your-database-bucket-name"
   builder_bucket: "your-builder-bucket-name"
 
 azure:
-  accountname: "YOUR ACCOUNT NAME"
-  accountkey: "YOUR ACCOUNT KEY"
+  accesskey: "YOUR ACCOUNT NAME"
+  secretkey: "YOUR ACCOUNT KEY"
   registry_container: "your-registry-container-name"
   database_container: "your-database-container-name"
   builder_container: "your-builder-container-name"
@@ -103,26 +103,22 @@ gcs:
   database_bucket: "your-database-bucket-name"
   builder_bucket: "your-builder-bucket-name"
 
-swift:
-  username: "Your OpenStack Swift Username"
-  password: "Your OpenStack Swift Password"
-  authurl: "Swift auth URL for obtaining an auth token"
-  # Your OpenStack tenant name if you are using auth version 2 or 3.
-  tenant: ""
-  authversion: "Your OpenStack swift auth version"
-  registry_container: "your-registry-container-name"
-  database_container: "your-database-container-name"
-  builder_container: "your-builder-container-name"
+oss:
+  accesskey: "OSS AccessKeyId"
+  secretkey: "OSS AccessKeySecret"
+  # OSS server endpoint. Default ENDPOINT is https://oss.aliyuncs.com
+  endpoint: ""
+  registry_bucket: "your-registry-bucket-name"
+  database_bucket: "your-database-bucket-name"
+  builder_bucket: "your-builder-bucket-name"
 
-# Set the default (global) way of how Application (your own) images are
-# pulled from within the Controller.
-# This can be configured per Application as well in the Controller.
-#
-# This affects pull apps and git push (slugrunner images) apps
-#
-# Values values are:
-# - Always
-# - IfNotPresent
+minio:
+  accesskey: "8TZRY2JRWMPT6UMXR6I5"
+  secretkey: "gbstrOvotMMcg2sMfGUhA5a6Et/EI5ALtIHsobYk"
+  registry_bucket: "deis-registry"
+  database_bucket: "deis-database"
+  builder_bucket: "deis-builder"
+
 controller:
   app_pull_policy: "IfNotPresent"
   # Possible values are:
@@ -210,7 +206,7 @@ registry-token-refresher:
 
 router:
   dhparam: ""
-  # Any custom router annotations(https://github.com/teamhephy/router#annotations)
+  # Any custom router annotations(https://github.com/deiscc/router#annotations)
   # which need to be applied can be specified as key-value pairs under "deployment_annotations"
   deployment_annotations:
     #<example-key>: <example-value>
@@ -228,5 +224,5 @@ router:
   # service_type: LoadBalancer
 
 workflow-manager:
-  versions_api_url: https://versions.teamhephy.info
-  doctor_api_url: https://doctor.teamhephy.info
+  versions_api_url: https://versions.deiscc.info
+  doctor_api_url: https://doctor.deiscc.info

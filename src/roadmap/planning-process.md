@@ -22,7 +22,7 @@ The Roadmap gets delivered progressively via the [Release Schedule][].  Releases
 
 Major decisions affecting the Roadmap are discussed during Release Planning Meetings on the first Thursday of each month, aligned with the [Release Schedule][].
 
-Release Planning Meetings are open to the public with access coordinated via the [Deis #community Slack channel](https://slack.deis.io).
+Release Planning Meetings are open to the public with access coordinated via the [Deis #community Slack channel](https://slack.deis.cc).
 Notes from past meetings are below, along with links to a recording of the entire meeting on YouTube.
 
 ## Credits

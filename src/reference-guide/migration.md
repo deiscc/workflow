@@ -72,7 +72,7 @@ $ kubectl --namespace=deis logs -f deis-builder-1851090495-5n0sn
 ```
 
 
-[deisctl]: http://docs.deis.io/en/latest/installing_deis/install-deisctl/
+[deisctl]: http://docs.deis.cc/en/latest/installing_deis/install-deisctl/
 [fleetctl]: https://github.com/coreos/fleet/blob/master/Documentation/using-the-client.md
 [kubectl]: http://kubernetes.io/docs/user-guide/kubectl-overview/
 [helm]: https://github.com/kubernetes/helm

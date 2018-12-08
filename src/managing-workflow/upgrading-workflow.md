@@ -83,10 +83,10 @@ deis-workflow-manager-2654760652-kitf9   1/1       Running   0          5m
 Users of Deis Workflow should now upgrade their deis client to avoid getting `WARNING: Client and server API versions do not match. Please consider upgrading.` warnings.
 
 ```
-curl -sSL https://raw.githubusercontent.com/teamhephy/workflow-cli/master/install-v2.sh | bash -s v2.20.0 && sudo mv deis $(which deis)
+curl -sSL https://raw.githubusercontent.com/deiscc/workflow-cli/master/install-v2.sh | bash -s v2.20.0 && sudo mv deis $(which deis)
 ```
 
 
-[minio]: https://github.com/teamhephy/minio
+[minio]: https://github.com/deiscc/minio
 [Configuring Object Storage]: ../installing-workflow/configuring-object-storage.md
-[Workflow-Migration]: https://github.com/teamhephy/workflow-migration/blob/master/README.md
+[Workflow-Migration]: https://github.com/deiscc/workflow-migration/blob/master/README.md

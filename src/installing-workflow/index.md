@@ -59,7 +59,7 @@ The Deis Chart Repository contains everything needed to install Deis Workflow on
 Add this repository to Helm:
 
 ```
-$ helm repo add deis https://charts.deis.com/workflow
+$ helm repo add deis https://charts.deis.cc/workflow
 ```
 
 ## Install Deis Workflow
@@ -115,4 +115,4 @@ After installing Workflow, [register a user and deploy an application](../quicks
 
 [Kubernetes v1.3.4+]: system-requirements.md#kubernetes-versions
 [helm]: https://github.com/kubernetes/helm/blob/master/docs/install.md
-[valuesfile]: https://charts.deis.com/workflow/values-v2.17.0.yaml
+[valuesfile]: https://charts.deis.cc/workflow/values-v2.17.0.yaml
