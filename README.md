@@ -14,7 +14,7 @@
 
 ![](https://raw.githubusercontent.com/deiscc/workflow/master/themes/deis/static/img/deis_logo.png)
 
-[![Slack Status](https://slack.deiscc.com/badge.svg)](https://slack.deiscc.com/)
+[![Slack Status](https://slack.deis.cc/badge.svg)](https://slack.deis.cc/)
 
 **Deis Workflow** is an open source Platform as a Service (PaaS) that adds a developer-friendly layer to any [Kubernetes][k8s-home] cluster, making it easy to deploy and manage applications.
 
@@ -91,8 +91,8 @@ Then view the documentation on [http://localhost:8000](http://localhost:8000) or
 [blog]: https://blog.deiscc.info/blog/
 [read the announcement]: https://blog.deiscc.info/blog/posts/announcements/hephy-workflow-deis-fork.html
 [#community slack]: https://slack.deis.cc/
-[slack community]: https://slack.deiscc.com/
+[slack community]: https://slack.deis.cc/
 [v2.18]: https://github.com/deiscc/workflow/releases/tag/v2.18.0
-[Hephy Workflow website]: https://web.deiscc.com
+[Hephy Workflow website]: https://web.deis.cc
 [v2.19.0]: https://gist.github.com/Cryptophobia/24c204583b18b9fc74c629fb2b62dfa3
 [v2.20.0]: https://gist.github.com/Cryptophobia/667cc30f42dc38d6784212eea00bfc58
